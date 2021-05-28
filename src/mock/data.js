@@ -19,46 +19,26 @@ export const heroData = {
 export const aboutData = {
   img: 'selfportrait.jpg',
   paragraphOne:
-    "I'm Rakha Djokosoetono, currently a second year Computer Science student at The University of Manchester.",
+    "I'm Rakha Djokosoetono, currently an incoming third year Computer Science student at The University of Manchester.",
   paragraphTwo:
     'I started coding in 2015. ' +
     "Throughout my journey, I've taught myself various languages and technologies, and put them to use in my various roles and greenfield projects. " +
     "I'm no superstar programmer, but I try my best everyday.",
   paragraphThree: 'Have a look at my contemporary resume as of October 2020!',
-  resume: 'https://personalpages.manchester.ac.uk/student/rakha.djokosoetono/resume.pdf', // if no resume, the button will not show up
+  resume: './resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'unknown.png',
-    title: 'tyrannosaurus.rest ',
-    info:
-      'Rest API built with ExpressJS, with data collected by Python Webscraping that returns information on dinosaurs.',
-    info2: 'Information curated from the museum of natural history',
-    url: '',
-    repo: 'https://github.com/rakhadjo/tyrannosaurus.rest', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'unknown.png',
-    title: 'SPERA (SPE Resource Allocation) ',
-    info:
-      'Internal company human resources allocation program, built with Java Spring Boot with MongoDB and MySQL databases',
-    info2: 'Rebuilt from the 2019 version of the project with the same name. ',
-    url: '',
-    repo: 'https://github.com/rakhadjo/spera', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'unknown.png',
+    img: 'cursedimg.png',
     title: 'Cursed Images API & Telegram Bot',
     info:
-      'REST API built with Spring Boot and Java, connected to MongoDB that returns off-putting images, followed with a Telegram chat bot written in Python, hosted on Heroku that returns the image from the API.',
+      'REST API built with ExpressJS and the PugJS template engine hosted on Heroku that returns unsettling, seemingly cursed images, followed with a Telegram chat bot written in Python, also hosted on Heroku that returns the image from the API among other API calls.',
     info2: 'Open for contribution!',
-    url: '',
-    repo: 'https://github.com/cobidev/cursed_images_api', // if no repo, the button will not show up
+    url: 'https://cursedimg.herokuapp.com',
+    repo: 'https://github.com/rakhadjo/cursedimages.rest', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -70,6 +50,26 @@ export const projectsData = [
     info2: 'Built with HTML, CSS, JS, one line of PHP, hosted at Heroku.',
     url: 'https://htm-hell.herokuapp.com',
     repo: 'https://github.com/rakhadjo/htm-hell', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'unknown.png',
+    title: 'Eventlite ',
+    info:
+      'Second year Software Engineering Project posing as an Eventbrite clone. Built using Java 11 Spring MVC.',
+    info2: 'Information curated from the museum of natural history',
+    url: '',
+    repo: 'https://github.com/rakhadjo/eventlite', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'unknown.png',
+    title: 'SPERA (SPE Resource Allocation) ',
+    info:
+      'Internal company human resources allocation program, built with Java Spring Boot with MongoDB and MySQL databases',
+    info2: 'Rebuilt from the 2019 version of the project with the same name. ',
+    url: '',
+    repo: 'https://github.com/rakhadjo/spera', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -88,30 +88,32 @@ export const projectsData = [
 export const experienceData = [
   {
     id: nanoid(),
-    role: 'Head of Employability',
+    role: 'President',
+    company: 'UniCS Manchester',
+    description1:
+      'UniCS is the largest Computer Science Students Society at the University of Manchester, representing the School of Computer Science. ',
+    description2:
+      "Responsible for overseeing the planning, execution and promotion of tech-based events (hackathons, tech-talks, etc) and technical project development. Additionally tasked to maintain a stellar relationship with the School of Computer Science faculty members & students, and the Students' Union",
+    period: 'Jan 2020 - present',
+  },
+  {
+    id: nanoid(),
+    role: 'Head of Professional Development',
     company: 'PPIGM',
     description1:
-      'Director of professional & academic developement of the Indonesian Students Society in Greater Manchester.',
+      'PPIGM is the premier Indonesian Students Society in all of Greater Manchester. Director of professional & academic developement of the Indonesian Students Society in Greater Manchester.',
     description2:
       'Accountable in holding events related to individual career development and employability, in addition to career-related workshops.',
     period: 'Jan 2020 - present',
   },
   {
     id: nanoid(),
-    role: 'Vice President',
+    role: 'Director of B2B',
     company: 'AIESEC Manchester',
     description1:
       'Head of prospecting & research process of potential business partners in Manchester, while ensuring sales routines in a youth-run team. ',
     description2:
       'Tracking goals & tasks to be achieved by the team. Motivating & inspiring my team players to be the best versions of themselves.',
-    period: 'Jan 2020 - present',
-  },
-  {
-    id: nanoid(),
-    role: 'Secretary',
-    company: 'UniCS Manchester',
-    description1: 'Organized, moderated, and recorded minutes during committee meetings.',
-    description2: 'Provided administrative & clerical support to ensure total workspace synergy',
     period: 'Jan 2020 - present',
   },
   {
