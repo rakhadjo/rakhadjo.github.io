@@ -1,17 +1,14 @@
 # rakhadjo.me personal website
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/069be3cf-d125-4ac3-85f0-ac87a1f88409/deploy-status)
-
 See the tech I use to implement my personal website.
 
 ### Branches
 
-- `master` used as the production branch, for deploys on netlify.
+- `master` used as the production branch, for deploys on GH pages.
 - `develop` used for adding new features, previewing. This is the feature branch.
 
 ### Tech Implemented
 
-- `netlify` for website hosting
 - `gatsby.js` for react-based front-end framework
 - `javascript` and `jsx` for writing data entry and components.
 - `SCSS`for styling
