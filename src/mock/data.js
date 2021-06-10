@@ -34,8 +34,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'cursedimg.png',
     title: 'Cursed Images API & Telegram Bot',
-    info:
-      'REST API built with ExpressJS and the PugJS template engine hosted on Heroku that returns unsettling, seemingly cursed images, followed with a Telegram chat bot written in Python, also hosted on Heroku that returns the image from the API among other API calls.',
+    info: 'REST API built with ExpressJS and the PugJS template engine hosted on Heroku that returns unsettling, seemingly cursed images, followed with a Telegram chat bot written in Python, also hosted on Heroku that returns the image from the API among other API calls.',
     info2: 'Open for contribution!',
     url: 'https://cursedimg.herokuapp.com',
     repo: 'https://github.com/rakhadjo/cursedimages.rest', // if no repo, the button will not show up
@@ -53,10 +52,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'unknown.png',
+    img: 'eventlite.png',
     title: 'Eventlite ',
-    info:
-      'Second year Software Engineering Project posing as an Eventbrite clone. Built using Java 11 Spring MVC.',
+    info: 'Second year Software Engineering Project posing as an Eventbrite clone. Built using Java 11 Spring MVC.',
     info2: 'Information curated from the museum of natural history',
     url: '',
     repo: 'https://github.com/rakhadjo/eventlite', // if no repo, the button will not show up
@@ -65,8 +63,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'unknown.png',
     title: 'SPERA (SPE Resource Allocation) ',
-    info:
-      'Internal company human resources allocation program, built with Java Spring Boot with MongoDB and MySQL databases',
+    info: 'Internal company human resources allocation program, built with Java Spring Boot with MongoDB and MySQL databases',
     info2: 'Rebuilt from the 2019 version of the project with the same name. ',
     url: '',
     repo: 'https://github.com/rakhadjo/spera', // if no repo, the button will not show up
@@ -75,8 +72,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'speakeasy.png',
     title: 'SpeakEasy',
-    info:
-      "Web application, combining text-to-speech with predictive text. Purpose of improving communication for people who can't speak.",
+    info: "Web application, combining text-to-speech with predictive text. Purpose of improving communication for people who can't speak.",
     info2:
       'Built as a first year Computer Science Project, my personal focus was at the Databases & Verification bit',
     url: 'http://speakeasyapp.pythonanywhere.com/',
