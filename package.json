@@ -14,7 +14,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.32.13",
+    "@sideway/address": "^4.1.2",
+    "gatsby": "^3.9.0",
+    "joi": "^17.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
