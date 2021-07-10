@@ -11,6 +11,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingId: 'UA-198108803-1', // Google Analytics / GA,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
