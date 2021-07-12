@@ -55,9 +55,19 @@ export const projectsData = [
     img: 'eventlite.png',
     title: 'Eventlite ',
     info: 'Second year Software Engineering Project posing as an Eventbrite clone. Built using Java 11 Spring MVC.',
-    info2: 'Information curated from the museum of natural history',
+    info2: 'Focused on back end interactions and unit tests.',
     url: '',
     repo: 'https://github.com/rakhadjo/eventlite', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'umkm.png',
+    title: 'Subsidi UMKM ',
+    info: 'GarudaHacks 2020 Hackathon Project. Subsidi UMKM is a static website providing information on subsidies from the Indonesian Government for Micro-Small Medium Enterprises due to the Covid-19 Pandemic. ',
+    info2:
+      "Static website built with React on GatsbyJS, built in a group of 4, my focus being the static 'informasi' page.",
+    url: 'https://www.rakhadjo.me/subsidi-umkm/',
+    repo: 'https://github.com/rakhadjo/subsidi-umkm', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
