@@ -24,7 +24,7 @@ export const aboutData = {
     'I started coding in 2015. ' +
     "Throughout my journey, I've taught myself various languages and technologies, and put them to use in my various roles and greenfield projects. " +
     "I'm no superstar programmer, but I try my best everyday.",
-  paragraphThree: 'Have a look at my contemporary resume as of October 2020!',
+  paragraphThree: 'Have a look at my contemporary resume as of May 2021!',
   resume: './resume.pdf', // if no resume, the button will not show up
 };
 
